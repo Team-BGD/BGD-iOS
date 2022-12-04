@@ -14,6 +14,12 @@
 		464FEB51293A551E00981682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464FEB50293A551E00981682 /* Assets.xcassets */; };
 		464FEB54293A551E00981682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464FEB52293A551E00981682 /* LaunchScreen.storyboard */; };
 		464FEB5D293A55F900981682 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 464FEB5C293A55F900981682 /* FirebaseDynamicLinks */; };
+		464FEB5F293A61B300981682 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 464FEB5E293A61B300981682 /* GoogleService-Info.plist */; };
+		464FEB61293A6FB700981682 /* NicknameSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464FEB60293A6FB700981682 /* NicknameSettingViewController.swift */; };
+		464FEB63293A72D300981682 /* UIButton+addTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464FEB62293A72D300981682 /* UIButton+addTarget.swift */; };
+		464FEB65293A739F00981682 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464FEB64293A739F00981682 /* Constant.swift */; };
+		467C3249293A7E400055534E /* OrnamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C3248293A7E400055534E /* OrnamentViewController.swift */; };
+		467C324B293A80020055534E /* WriteLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C324A293A80020055534E /* WriteLetterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		464FEB50293A551E00981682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		464FEB53293A551E00981682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		464FEB55293A551E00981682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464FEB5E293A61B300981682 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		464FEB60293A6FB700981682 /* NicknameSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameSettingViewController.swift; sourceTree = "<group>"; };
+		464FEB62293A72D300981682 /* UIButton+addTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+addTarget.swift"; sourceTree = "<group>"; };
+		464FEB64293A739F00981682 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		467C3248293A7E400055534E /* OrnamentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrnamentViewController.swift; sourceTree = "<group>"; };
+		467C324A293A80020055534E /* WriteLetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteLetterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		464FEB46293A551D00981682 /* Team-bgd */ = {
 			isa = PBXGroup;
 			children = (
+				464FEB5E293A61B300981682 /* GoogleService-Info.plist */,
 				464FEB47293A551D00981682 /* AppDelegate.swift */,
 				464FEB49293A551D00981682 /* SceneDelegate.swift */,
 				464FEB4B293A551D00981682 /* ViewController.swift */,
@@ -65,6 +78,11 @@
 				464FEB50293A551E00981682 /* Assets.xcassets */,
 				464FEB52293A551E00981682 /* LaunchScreen.storyboard */,
 				464FEB55293A551E00981682 /* Info.plist */,
+				464FEB60293A6FB700981682 /* NicknameSettingViewController.swift */,
+				464FEB62293A72D300981682 /* UIButton+addTarget.swift */,
+				464FEB64293A739F00981682 /* Constant.swift */,
+				467C3248293A7E400055534E /* OrnamentViewController.swift */,
+				467C324A293A80020055534E /* WriteLetterViewController.swift */,
 			);
 			path = "Team-bgd";
 			sourceTree = "<group>";
@@ -135,6 +153,7 @@
 			files = (
 				464FEB54293A551E00981682 /* LaunchScreen.storyboard in Resources */,
 				464FEB51293A551E00981682 /* Assets.xcassets in Resources */,
+				464FEB5F293A61B300981682 /* GoogleService-Info.plist in Resources */,
 				464FEB4F293A551D00981682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				464FEB4C293A551D00981682 /* ViewController.swift in Sources */,
+				464FEB61293A6FB700981682 /* NicknameSettingViewController.swift in Sources */,
 				464FEB48293A551D00981682 /* AppDelegate.swift in Sources */,
+				464FEB63293A72D300981682 /* UIButton+addTarget.swift in Sources */,
+				467C324B293A80020055534E /* WriteLetterViewController.swift in Sources */,
 				464FEB4A293A551D00981682 /* SceneDelegate.swift in Sources */,
+				464FEB65293A739F00981682 /* Constant.swift in Sources */,
+				467C3249293A7E400055534E /* OrnamentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
